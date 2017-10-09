@@ -3,40 +3,34 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A: It is 'undefined'. The variable has been created, but not assigned a value.
-
+// A: It is 'undefined'. The variable has been declared, but not assigned a value.
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
-// A: "Tim"
-
+// A: A string with the value of "Tim"
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A: true
-
+// A: A boolean value of True
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
 // A: "Hello, how are you? " + givenName
 
-
 // 5.
 // What is `math` set to?
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A: high - low;
-
+// A: Math has a number value of 40
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: high - "5"
-
+// A: A number value of 45
 
 // 7.
 // Create a variable to calculate Tim's age
@@ -59,7 +53,6 @@ let instructorName;
 let yourName = "Kelly";
 let instructorName = "Doug";
 
-
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
@@ -72,7 +65,6 @@ let instructorName = "Doug";
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
 
 console.log(statement);
-
 
 // 10.
 // We've created a variable named after each primitive type.
@@ -90,7 +82,8 @@ let myBoolean = false;
 let myUndefined;
 
 
-// For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
+// For questions 11 - 19: List which boolean value will be stored in each variable. 
+//(Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
@@ -165,18 +158,18 @@ if (true == thirsty){
 let x;
 
 if(x){
-	console.log("True!");
+   console.log("True!");
 } else {
-	console.log("False!");
+   console.log("False!");
 }
- FALSE
+ TRUE
 
 
 // 22.
 if(""){
-	console.log("True!");
+   console.log("True!");
 } else {
-	console.log("False!");
+   console.log("False!");
 }
 FALSE
 
@@ -186,9 +179,9 @@ FALSE
 let x = 1 * undefined;
 
 if(x){
-	console.log("True!");
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
 FALSE
 
